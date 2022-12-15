@@ -390,6 +390,11 @@ header .navbar a:hover{
         padding:1rem;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
+    
+    header a img{
+        width: 100%;
+        margin-left: 30%;
+    }
 
     header .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
